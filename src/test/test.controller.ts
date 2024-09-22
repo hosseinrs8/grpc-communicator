@@ -1,4 +1,4 @@
-import { Container, Service } from 'typedi';
+import { Service } from 'typedi';
 import EventEmitter from 'node:events';
 import { OnRPCRequest } from '../router/decorators/on-request.service.decorator';
 import { Logger } from '../tools/logger';
